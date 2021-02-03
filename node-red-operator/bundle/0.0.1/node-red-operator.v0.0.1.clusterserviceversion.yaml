@@ -26,8 +26,8 @@ metadata:
               "name": "node-red-svc",
               "type": null
             },
-            "adminpassword": "$2a$08$V4gPANVy34NKRbnUbMv85OKTEvRmlMTdu6Qmcb2Az5LfOMT5aPA9G",
-            "secretkey": "c2VjcmV0"
+            "adminpassword": "Give the bcrypt hash of the password. See http://nodered.org/docs/security.html#generating-the-password-hash",
+            "secretkey": "To specify your own secret, set this property in base64 encoding"
           }
         }
       ]
