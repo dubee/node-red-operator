@@ -11,14 +11,14 @@ metadata:
             "name": "nodered"
           },
           "spec": {
-            "adminpassword": "$2a$08$V4gPANVy34NKRbnUbMv85OKTEvRmlMTdu6Qmcb2Az5LfOMT5aPA9G",
+            "adminpassword": "Give the bcrypt hash of the password. See http://nodered.org/docs/security.html#generating-the-password-hash",
             "persistentvolume": {
               "enabled": true,
               "size": "100Mi",
               "storageclass": "ibmc-file-silver-gid",
               "accessmode":"ReadWriteMany"
             },
-            "secretkey": "c2VjcmV0",
+            "secretkey": "To specify your own secret, set this property in base64 encoding",
             "size": 1
           }
         },
