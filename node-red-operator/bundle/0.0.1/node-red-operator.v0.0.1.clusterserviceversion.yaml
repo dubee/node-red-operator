@@ -114,6 +114,8 @@ spec:
                 volumeMounts:
                 - mountPath: /tmp/ansible-operator/runner
                   name: runner
+              imagePullSecrets:
+                - name: ibm-content-mgmt-public-pull-secret
               serviceAccountName: node-red-operator
               volumes:
               - emptyDir: {}
